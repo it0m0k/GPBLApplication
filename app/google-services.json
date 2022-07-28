@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548926857665",
+    "firebase_url": "https://gbpl-agriculture-default-rtdb.firebaseio.com",
+    "project_id": "gbpl-agriculture",
+    "storage_bucket": "gbpl-agriculture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548926857665:android:fea1765e840f58f674cf40",
+        "android_client_info": {
+          "package_name": "com.example.gpblapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548926857665-2b25jv11nnu1qpsk0c9uu1a5jpb3ktn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO5fLykHKfrbqNNhFDdHfTwWx_XcNUqI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548926857665-2b25jv11nnu1qpsk0c9uu1a5jpb3ktn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
