@@ -69,7 +69,8 @@ public class MainActivity extends AppCompatActivity {
                 hopperUpdates.put("LEDCommand","1");
 
                 hopperRef.updateChildren(hopperUpdates);
-                Toast.makeText(MainActivity.this,"The light turned on!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"The light turned on !",Toast.LENGTH_SHORT).show();
+                System.out.println("status:ON");
             }
         });
 
@@ -81,7 +82,8 @@ public class MainActivity extends AppCompatActivity {
                 hopperUpdates.put("LEDCommand","0");
 
                 hopperRef.updateChildren(hopperUpdates);
-                Toast.makeText(MainActivity.this,"The light turned off!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"The light turned off !",Toast.LENGTH_SHORT).show();
+                System.out.println("status:OFF");
             }
         });
 
